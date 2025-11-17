@@ -6,7 +6,7 @@ import { Router } from "express";
 const router = express.Router();
 
 
-router.post("/senduser", getuser);
+router.post("/api/senduser", getuser);
 
 export default router;
 
